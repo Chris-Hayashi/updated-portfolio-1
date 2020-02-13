@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "confetti";
+    src: url("./fonts/Hoodson\ free\ font\ .ttf");
+}
+
+body {
+    background-image: linear-gradient(to right, #09C6F9, #045DE9);
+    font-family: confetti;
+}
+
+#jumbotron {
+    background-image: linear-gradient(to right, #8693AB, #BDD4E7);
+    position: relative;
+
+    width: 100vw;
+    height: 40vh;
+}
+
+#myName {
+    position: absolute;
+    /* box-sizing: border-box; */
+    /* text-align: center; */
+    top: 10%;
+    left: 37vw;
+    /* left: 42%; */
+    /* margin-top: -0.8em; */
+}
+
+#aboutMe {
+    position: absolute;
+    border: 5px solid black;
+    width: 90vw;
+    left: 5vw;
+}
+
+#summary {
+    text-decoration: underline;
+}
+
+#brandStatement {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}
