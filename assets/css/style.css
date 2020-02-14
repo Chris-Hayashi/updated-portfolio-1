@@ -6,24 +6,29 @@
 body {
     background-image: linear-gradient(to right, #09C6F9, #045DE9);
     font-family: confetti;
+    overflow-x: hidden;
 }
 
 #jumbotron {
     background-image: linear-gradient(to right, #8693AB, #BDD4E7);
-    position: relative;
+    /* position: relative; */
 
     width: 100vw;
     height: 40vh;
+    min-height: 300px;
 }
 
 #myName {
-    position: absolute;
+    /* position: absolute; */
     -webkit-filter: drop-shadow(3px 3px 3px #222);
     filter: drop-shadow(3px 3px 3px #222);
+    display: block;
     /* box-sizing: border-box; */
     /* text-align: center; */
-    top: 10%;
-    left: 37vw;
+    /* top: 10%;
+    left: 37vw; */
+    margin: auto;
+    padding-top: 5vh;
     /* left: 42%; */
     /* margin-top: -0.8em; */
 }
