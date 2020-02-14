@@ -26,14 +26,7 @@ body {
     padding-top: 5vh;
 }
 
-/* #seeProjects {
-    font-size: 2rem;
-    text-transform: uppercase;
-    border-radius: 50rem;
-} */
-
 #aboutMe {
-    /* position: absolute; */
     display: block;
     background-color: white;
     opacity: 0.95;
@@ -50,6 +43,13 @@ body {
 
 #aboutMeContent {
     margin: 1.5rem;
+}
+
+#projects {
+    text-align: center;
+}
+
+#sellMyself {
     text-align: center;
 }
 
@@ -74,6 +74,7 @@ body {
 
 #brandStatement {
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .flip-card {
@@ -114,7 +115,6 @@ body {
 }
 
 .flip-card-title {
-    /* position: absolute; */
     text-align:center;
 }
 
